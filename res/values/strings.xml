@@ -7,8 +7,30 @@
     <string name="power_label">Power</string>
     <string name="critChance_label">Crit. chance</string>
     <string name="critDamage_label">Crit. damage</string>
+    <string name="statPointTradeoff">statPointTradeoff</string>
     <string name="calc_label">Run</string>
     <string name="clean">Clean</string>
-    <string name="results">Results</string>
+    <string name="results">::RESULTS::</string>
+    
+    <string name="damage_stats">::DAMAGE STATS::</string>
+    <string name="damage_per_power">Damage per power: </string>
+    <string name="damage_per_precision">Damage per precision: </string>
+    <string name="damage_per_crit_chance">Damage per +1% crit chance: </string>
+    <string name="statPointTradeoff_per_crit_damage">Stat point tradeoff per crit damage: </string>
+    <string name="damage">Damage: </string>
+    <string name="required_field_error">Required field!</string>
+    
+    <string name="recommendation">::RECOMMENDATION::</string>
+    <string name="crit_power_prec">+Add crit damage at expense of power and/or precision</string>
+    <string name="sacrificing_prec">--Prefer sacrificing precision before power</string>
+    <string name="sacrificing_power">--Prefer sacrificing power before precision</string>
+    <string name="crit_power">+Add crit damage at expense of power</string>
+    <string name="crit_prec">+Add crit damage at expense of precision</string>
+    <string name="no_crit">Do not add more crit damage</string>
+    <string name="more_power">--Add more power before adding more precision</string>
+    <string name="more_prec">--Add more precision before adding more power</string>
+    
+    <string name="note">NOTE: Recommendation ONLY applies to replacing gear in a slot with stat point tradeoff for crit damage: </string>
+    <string name="source">See: http://www.reddit.com/r/Guildwars2/comments/12dmi5/tip_stat_optimization_with_crit_damage/?sort=confidence</string>
 
 </resources>
