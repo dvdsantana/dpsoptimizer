@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">dpsoptimizer</string>
+    <string name="app_name">DPS Optimizer</string>
     <string name="action_settings">Settings</string>
     <string name="app_tittle">Maximizing your DPS!</string>
     <string name="power_label">Power</string>
@@ -32,5 +32,6 @@
     
     <string name="note">NOTE: Recommendation ONLY applies to replacing gear in a slot with stat point tradeoff for crit damage: </string>
     <string name="source">See: http://www.reddit.com/r/Guildwars2/comments/12dmi5/tip_stat_optimization_with_crit_damage/?sort=confidence</string>
+    <string name="exit">Exit</string>
 
 </resources>

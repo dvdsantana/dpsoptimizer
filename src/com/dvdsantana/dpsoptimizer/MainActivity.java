@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
 		this.ef_critChance.setText("");
 	    this.ef_critDamage.setText("");
 	    this.tv_results.setText("");
+	    this.tv_recommendation.setText("");
 	    this.ef_statPointTradeoff.setText("");
 	}
 	
@@ -90,7 +91,7 @@ public class MainActivity extends Activity {
 		    
 		    StringBuilder log = new StringBuilder();
 		    log.append(getResources().getString(R.string.damage_stats));
-		    log.append("\n"+getResources().getString(R.string.damage_per_power)+f1);
+		    log.append("\n\n"+getResources().getString(R.string.damage_per_power)+f1);
 		    log.append("\n"+getResources().getString(R.string.damage_per_precision)+ f2);
 		    log.append("\n"+getResources().getString(R.string.damage_per_crit_chance) + (f2*21));
 		    log.append("\n"+getResources().getString(R.string.statPointTradeoff_per_crit_damage) + f3);
@@ -104,7 +105,7 @@ public class MainActivity extends Activity {
 
 		    if (f3 > f1 && f3 > f2) {
 		    	//Add crit damage at expense of power and/or precision
-		    	log.append("\n"+getResources().getString(R.string.crit_power_prec));
+		    	log.append("\n\n"+getResources().getString(R.string.crit_power_prec));
 		        if (f1 > f2) {
 		        	//Prefer sacrificing precision before power
 		        	log.append("\n"+getResources().getString(R.string.sacrificing_prec));
